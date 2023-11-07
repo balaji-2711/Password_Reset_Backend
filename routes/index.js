@@ -104,7 +104,7 @@ router.post("/send-email", async (req, res) => {
         firstName: user.firstName,
         lastName: user.lastName,
         email: user.email,
-        message: `${url}/reset-password/${user._id}/${token}`,
+        message: `${url}reset-password/${user._id}/${token}`,
       });
 
       res.status(200).send({
