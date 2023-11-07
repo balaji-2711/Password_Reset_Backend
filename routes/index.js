@@ -16,8 +16,7 @@ const mongoose = require("mongoose");
 const { passwordEmail } = require("../service/passwordEmail");
 
 //frontend url
-let url = "http://localhost:3000";
-
+let url = "https://beamish-queijadas-99b5c1.netlify.app/"
 //connect to DB
 mongoose.connect(dbUrl);
 
